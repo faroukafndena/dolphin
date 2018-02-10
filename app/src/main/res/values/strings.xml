@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">dolphincatalogue</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dolphin"> <a href="https://www.facebook.com/Dolphin-Heat-Transfer-1022822567864630/">
+        Dolphin Heat Group
+    </a>
+
+    </string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+
+</resources>

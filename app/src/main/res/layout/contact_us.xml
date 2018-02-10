@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/newacc"
+
+    >
+         <ImageView
+        android:id="@+id/contact"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/finallogo"
+
+
+        />
+        <EditText
+            android:id="@+id/name_contact"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contact"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:drawableRight="@drawable/ic_person_black_24dp"
+            android:hint=" Name"
+            android:inputType="text"
+            android:textColorHint="#1E88E5"
+
+            android:textStyle="bold"
+
+
+            />
+
+        <EditText
+            android:id="@+id/contact_email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/name_contact"
+            android:layout_alignStart="@+id/name_contact"
+            android:layout_below="@+id/name_contact"
+            android:drawableRight="@drawable/ic_email_black_24dp"
+            android:hint=" E-mail"
+
+
+            android:inputType="textEmailAddress"
+            android:textColorHint="#1E88E5"
+            android:textStyle="bold" />
+
+
+
+        <EditText
+            android:id="@+id/contact_mesg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/contact_email"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="  Message"
+            android:textStyle="bold"
+            android:textColorHint="#1E88E5"
+            android:drawableRight="@drawable/ic_edit_black_24dp"
+            android:inputType="textMultiLine"
+            android:background="@drawable/borders"
+
+            />
+
+        <Button
+            android:id="@+id/contact_send"
+
+            android:layout_width="150dp"
+            android:layout_below="@+id/contact_mesg"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn"
+            android:text="SEND  >"
+            android:layout_marginTop="15dp"
+
+            />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

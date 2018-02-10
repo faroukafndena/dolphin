@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar_top"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:minHeight="?attr/actionBarSize"
+    android:background="#D7CCC8"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rel_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/img_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_home_black_48dp" android:contentDescription="TODO" />
+
+        <ImageButton
+            android:id="@+id/dolphin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="115dp"
+            android:layout_marginRight="115dp"
+            android:background="@drawable/dolphin" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</android.support.v7.widget.Toolbar>

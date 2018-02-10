@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newacc"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+<RelativeLayout
+    android:id="@+id/first_lay"
+    android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/search_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/finallogo"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"></ImageView>
+
+
+</RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/first_lay"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/search_vec"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/btn"
+                android:drawableRight="@drawable/arrow"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+
+                android:text="VECHILE"
+                />
+
+            <Button
+                android:id="@+id/search_model"
+
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+
+                android:layout_alignLeft="@+id/search_vec"
+                android:layout_alignStart="@+id/search_vec"
+                android:layout_below="@+id/search_vec"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/btn"
+                android:drawableRight="@drawable/arrow"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="Model"
+                />
+            <Button
+                android:id="@+id/search_part"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+
+
+                android:layout_alignLeft="@+id/search_model"
+                android:layout_alignStart="@+id/search_model"
+                android:layout_below="@+id/search_model"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/btn"
+                android:drawableRight="@drawable/arrow"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="part type" />
+
+            <Button
+                android:id="@+id/search_Year"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+
+
+                android:layout_alignLeft="@+id/search_part"
+                android:layout_alignStart="@+id/search_part"
+                android:layout_below="@+id/search_part"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/btn"
+                android:drawableRight="@drawable/arrow"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="year" />
+
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                  android:layout_below="@+id/search_Year"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/custom_button"
+                android:layout_centerHorizontal="true"
+                android:text="Search"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
